@@ -155,7 +155,7 @@ display: block;
 /*-------HERO----------*/
 
 .hero {
-    width: 1519px;
+    width: 1440px;
     background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/people-office.jpg);
     margin-left: auto;
     margin-right: auto;
@@ -307,6 +307,7 @@ box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     padding-top: 32px;
     padding-bottom: 8px;
 }
+
 .soc-list {
     display: flex;
     width: 232px;
@@ -331,7 +332,8 @@ box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 .soc-item-link:focus {
     background-color: var(--accent-active)
 }
-
+.soc-item-icon {
+    fill: #F4F4FD}
 
 /* --------------customers-------------*/
 
@@ -507,7 +509,7 @@ padding-bottom: 120px;
 .portfolio-list-item:hover,
 .portfolio-list-item:focus {
     border: 0.5px solid #F4F4FD;
-     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 
         0px 1px 1px rgba(46, 47, 66, 0.16), 
         0px 2px 1px rgba(46, 47, 66, 0.08);
         

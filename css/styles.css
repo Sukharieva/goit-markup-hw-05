@@ -595,7 +595,8 @@ transition-property: transform;
    
 }
 
-.link-portfolio:hover .link-portfolio-text {
+.link-portfolio:hover .link-portfolio-text,
+.link-portfolio:focus .link-portfolio-text {
     transform: translateY(0);
 }
 
